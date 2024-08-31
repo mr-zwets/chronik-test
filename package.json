@@ -1,0 +1,16 @@
+{
+  "name": "chronik-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tsx index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "chronik-client-cashtokens": "^0.28.2-alpha",
+    "ecashaddrjs": "^1.5.8",
+    "tsx": "^4.19.0"
+  }
+}
