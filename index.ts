@@ -1,7 +1,7 @@
 // chronik indexer docs at https://docs.chronik.xyz/
 import { ChronikClientNode } from 'chronik-client-cashtokens';
 
-const chronikUrls = ["https://chronik.pay2stay.com/bch2"]
+const chronikUrls = ["https://chronik.pay2stay.com/bch"]
 const chronik = new ChronikClientNode(chronikUrls);
 
 console.log('\nchronik.tx(txid)')
