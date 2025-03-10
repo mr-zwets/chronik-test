@@ -1,7 +1,7 @@
 // chronik indexer docs at https://docs.chronik.xyz/
 import { ChronikClientNode } from 'chronik-client-cashtokens';
 
-const chronikUrls = ["https://chronik.pay2stay.com/bch"]
+const chronikUrls = ["https://bch.paybutton.org"]
 const chronik = new ChronikClientNode(chronikUrls);
 
 const utf8ToHex = (str:string) => Buffer.from(str, 'utf8').toString('hex');
